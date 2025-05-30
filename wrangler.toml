@@ -1,9 +1,10 @@
 name = "my-site"
 account_id = "f87789552a7592063d35ff1d9e01bf69"
+
 compatibility_date = "2025-05-30"
 
-main = "workers-site/index.js"
-
 [site]
-bucket = "./dist"
-    
+bucket = "./dist"         # folder with built static files
+main = "workers-site/index.js"
+entry-point = "workers-site"
+
