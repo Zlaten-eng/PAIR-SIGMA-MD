@@ -1,0 +1,7 @@
+name = "my-site"
+account_id = "f87789552a7592063d35ff1d9e01bf69"
+compatibility_date = "2025-05-30"
+
+[site]
+bucket = "./dist"         # folder with built static files
+entry-point = "workers-site"
