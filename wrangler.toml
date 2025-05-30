@@ -1,8 +1,0 @@
-name = "mysite"
-account_id = "f87789552a7592063d35ff1d9e01bf69"
-compatibility_date = "2025-05-30"
-main = "src/index.js"  # ✅ this must be at the top level
-
-[site]
-bucket = "./dist"               # ✅ this stays inside [site]
-
