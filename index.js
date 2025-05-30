@@ -10,7 +10,7 @@ app.use('/pair',async (req, res, next) => {
 res.sendFile(__path + '/pair.html')
 })
 app.use('/',async (req, res, next) => {
-res.sendFile(__path + '/HansTz.html')
+res.sendFile(__path + '/Conway.html')
 })
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
